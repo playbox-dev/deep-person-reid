@@ -1,0 +1,15 @@
+[project]
+name = "torchreid_deep"
+version = "1.4.0" 
+authors = [{name="Vladimir Somers"}]
+urls = {homepage = "https://github.com/VlSomers/torchreid"}
+
+
+[build-system]
+requires = ["setuptools", "numpy", "cython"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools]
+packages = ["torchreid_deep"]
+package-dir = {"torchreid_deep" = "torchreid"}
